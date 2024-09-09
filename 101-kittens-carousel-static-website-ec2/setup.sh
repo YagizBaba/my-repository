@@ -5,7 +5,7 @@ yum install httpd -y
 
 cd /var/www/html
 
-FOLDER=https://raw.githubusercontent.com/YagizBaba/my-repository/main/static-web
+FOLDER=https://raw.githubusercontent.com/YagizBaba/my-repository/main/101-kittens-carousel-static-website-ec2/static-web
 
 wget ${FOLDER}/index.html 
 wget ${FOLDER}/cat0.jpg
